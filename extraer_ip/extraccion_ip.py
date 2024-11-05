@@ -28,7 +28,7 @@ if not os.path.isfile(input_path):
     print(f"El archivo {input_path} no existe.")
 else:
     # Define la ruta del archivo de resultados
-    output_path = "C:\\Users\\Eduardo Elgueta\\Desktop\\Scripts\\extraer_ip\\resultados.csv"
+    output_path = "C:\\Path\\extraer_ip\\resultados.csv"
     
     # Crea o limpia el archivo de resultados y escribe el encabezado
     with open(output_path, 'w') as output_file:
