@@ -48,10 +48,8 @@ else:
             print(f"Dirección IP de {url}: {ip_address}")
             # Agrega solo la IP al archivo
             with open(output_path, 'a') as output_file:
-                output_file.write(f"{ip_address}\n")  # Agrega solo la IP al archivo
+                output_file.write(f"{ip_address}: {url}\n")  # Agrega solo la IP al archivo
 
         print("-------------------------")
 
     print(f"Resultados guardados en {output_path}")
-
-### Recuerda agregar la dirección donde se encuentra el archivo
