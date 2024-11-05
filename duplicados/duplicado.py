@@ -1,17 +1,6 @@
 import ipaddress
 
 def agregar_ips_sin_duplicados_desde_archivos(archivo_original, archivo_a_agregar):
-    """
-    Combina dos listas de IPs de archivos, evitando duplicados y validando las IPs.
-
-    Args:
-        archivo_original (str): Ruta al archivo con la lista inicial de IPs.
-        archivo_a_agregar (str): Ruta al archivo con la lista de IPs a agregar.
-
-    Returns:
-        list: Una nueva lista con todas las IPs válidas, sin duplicados.
-    """
-
     def leer_ips_desde_archivo(archivo):
         ips_validas = []
         try:
