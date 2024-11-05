@@ -17,8 +17,8 @@ if (-Not (Test-Path "output.html")) {
 # Lee el contenido de output.html
 $content = Get-Content "output.html"
 
-# Encuentra todas las URLs que terminan con medife.com.ar
-$urls = [regex]::Matches($content, '[\w.-]+\.medife\.com\.ar') | ForEach-Object { $_.Value }
+# Encuentra todas las URLs que terminan con domino.com.algo
+$urls = [regex]::Matches($content, '[\w.-]+\.domino\.com\.algo') | ForEach-Object { $_.Value }
 
 # Elimina duplicados
 $uniqueUrls = $urls | Select-Object -Unique
