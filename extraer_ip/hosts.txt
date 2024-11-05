@@ -1,8 +1,1 @@
-www.osprogmed.com.ar
-autodiscover.osprogmed.com.ar
-cpanel.osprogmed.com.ar
-cpcalendars.osprogmed.com.ar
-cpcontacts.osprogmed.com.ar
-mail.osprogmed.com.ar
-webdisk.osprogmed.com.ar
-webmail.osprogmed.com.ar
+{list of host}
